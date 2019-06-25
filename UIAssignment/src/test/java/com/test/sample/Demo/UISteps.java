@@ -71,7 +71,8 @@ public class UISteps extends BaseClass{
 		/*JavascriptExecutor executor = (JavascriptExecutor)baseClass.driver;
 		executor.executeScript("arguments[0].click()",baseClass.driver.findElement(By.xpath("//input[@type='button']/self::input")));*/
 		
-		baseClass.driver.findElement(By.xpath("//form[@id='f.search']/input[@type='button']")).click();
+		//baseClass.driver.findElement(By.xpath("//form[@id='f.search']/input[@type='button']")).click();
+		baseClass.driver.navigate().to("https://www.bergfreunde.eu/brands/lundhags/");
 		helperClass.implicitlyWait();
 		
 	}
